@@ -10,6 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Error Handling" Type="Folder">
+			<Item Name="Error Handling.lvlib" Type="Library" URL="../Error Handling/Error Handling.lvlib"/>
+		</Item>
 		<Item Name="Internal Communication" Type="Folder">
 			<Item Name="Internal Communication.lvlib" Type="Library" URL="../Internal Communication/Internal Communication.lvlib"/>
 		</Item>
