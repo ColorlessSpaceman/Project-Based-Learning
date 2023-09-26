@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="21008000">
+<Project Type="Project" LVVersion="23008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -10,11 +10,31 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Error Handling" Type="Folder">
-			<Item Name="Error Handling.lvlib" Type="Library" URL="../Error Handling/Error Handling.lvlib"/>
-		</Item>
-		<Item Name="Internal Communication" Type="Folder">
-			<Item Name="Internal Communication.lvlib" Type="Library" URL="../Internal Communication/Internal Communication.lvlib"/>
+		<Item Name="My First PBL" Type="Folder">
+			<Item Name="Decoder" Type="Folder">
+				<Item Name="Decoder.lvlib" Type="Library" URL="../Decoder/Decoder.lvlib"/>
+			</Item>
+			<Item Name="Encoder" Type="Folder">
+				<Item Name="Encoder.lvlib" Type="Library" URL="../Encoder/Encoder.lvlib"/>
+			</Item>
+			<Item Name="Error Handling" Type="Folder">
+				<Item Name="Error Handling.lvlib" Type="Library" URL="../Error Handling/Error Handling.lvlib"/>
+			</Item>
+			<Item Name="FPGA" Type="Folder">
+				<Item Name="FPGA.lvlib" Type="Library" URL="../FPGA/FPGA.lvlib"/>
+			</Item>
+			<Item Name="Heart" Type="Folder">
+				<Item Name="Heart.lvlib" Type="Library" URL="../Heart/Heart.lvlib"/>
+			</Item>
+			<Item Name="Internal Communication" Type="Folder">
+				<Item Name="Internal Communication.lvlib" Type="Library" URL="../Internal Communication/Internal Communication.lvlib"/>
+			</Item>
+			<Item Name="Launcher" Type="Folder">
+				<Item Name="Launcher.vi" Type="VI" URL="../Launcher/Launcher.vi"/>
+			</Item>
+			<Item Name="UI" Type="Folder">
+				<Item Name="UI.lvlib" Type="Library" URL="../UI/UI.lvlib"/>
+			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
