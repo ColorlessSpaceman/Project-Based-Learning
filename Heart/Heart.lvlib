@@ -8,7 +8,10 @@
 
 </Property>
 	<Item Name="API" Type="Folder"/>
-	<Item Name="Private" Type="Folder"/>
+	<Item Name="Private" Type="Folder">
+		<Item Name="Get Queue Heart.vi" Type="VI" URL="../Private/Get Queue Heart.vi"/>
+	</Item>
 	<Item Name="Public" Type="Folder"/>
+	<Item Name="First Check.vi" Type="VI" URL="../First Check.vi"/>
 	<Item Name="Main VI.vi" Type="VI" URL="../Main VI.vi"/>
 </Library>

@@ -36,7 +36,11 @@
 				<Item Name="UI.lvlib" Type="Library" URL="../UI/UI.lvlib"/>
 			</Item>
 		</Item>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Queue Base.ctl" Type="VI" URL="../Internal Communication/Controls/Queue Base.ctl"/>
+		<Item Name="Queue.ctl" Type="VI" URL="../Internal Communication/Controls/Queue.ctl"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="Innes Process Communication.lvlib" Type="Library" URL="../../../../Downloads/ATM (100528-01)/ATM (100528-01)/Omi-One Solution/Inner Process Communication/Innes Process Communication.lvlib"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>

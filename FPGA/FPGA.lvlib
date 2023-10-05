@@ -8,7 +8,13 @@
 
 </Property>
 	<Item Name="API" Type="Folder"/>
-	<Item Name="Private" Type="Folder"/>
+	<Item Name="Controls" Type="Folder">
+		<Item Name="States FPGA.ctl" Type="VI" URL="../Controls/States FPGA.ctl"/>
+	</Item>
+	<Item Name="Private" Type="Folder">
+		<Item Name="Dequeue.vi" Type="VI" URL="../Private/Dequeue.vi"/>
+		<Item Name="Get Queueu FPGA.vi" Type="VI" URL="../Private/Get Queueu FPGA.vi"/>
+	</Item>
 	<Item Name="Public" Type="Folder"/>
 	<Item Name="Main VI.vi" Type="VI" URL="../Main VI.vi"/>
 </Library>
