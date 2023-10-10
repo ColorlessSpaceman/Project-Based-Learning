@@ -8,11 +8,13 @@
 
 </Property>
 	<Item Name="Controls" Type="Folder">
+		<Item Name="Base Message.ctl" Type="VI" URL="../Controls/Base Message.ctl"/>
 		<Item Name="Queues Control.ctl" Type="VI" URL="../Controls/Queues Control.ctl"/>
 		<Item Name="State FGV.ctl" Type="VI" URL="../Controls/State FGV.ctl"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Item Name="Dequeue.vi" Type="VI" URL="../Public/Dequeue.vi"/>
+		<Item Name="Enqueue.vi" Type="VI" URL="../Public/Enqueue.vi"/>
 	</Item>
 	<Item Name="Main VI.vi" Type="VI" URL="../Main VI.vi"/>
 </Library>

@@ -10,6 +10,7 @@
 	<Item Name="API" Type="Folder"/>
 	<Item Name="Private" Type="Folder">
 		<Item Name="Dequeue Error.vi" Type="VI" URL="../Private/Dequeue Error.vi"/>
+		<Item Name="Enqueue Error.vi" Type="VI" URL="../Private/Enqueue Error.vi"/>
 		<Item Name="Get Queue Error.vi" Type="VI" URL="../Private/Get Queue Error.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder"/>

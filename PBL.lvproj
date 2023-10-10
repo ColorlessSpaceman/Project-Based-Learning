@@ -28,16 +28,16 @@
 			</Item>
 			<Item Name="Internal Communication" Type="Folder">
 				<Item Name="Internal Communication.lvlib" Type="Library" URL="../Internal Communication/Internal Communication.lvlib"/>
+				<Item Name="Queue Base.ctl" Type="VI" URL="../Internal Communication/Controls/Queue Base.ctl"/>
+				<Item Name="Queue.ctl" Type="VI" URL="../Internal Communication/Controls/Queue.ctl"/>
 			</Item>
 			<Item Name="Launcher" Type="Folder">
 				<Item Name="Launcher.vi" Type="VI" URL="../Launcher/Launcher.vi"/>
 			</Item>
-			<Item Name="UI" Type="Folder">
+			<Item Name="UI (Provisional)" Type="Folder">
 				<Item Name="UI.lvlib" Type="Library" URL="../UI/UI.lvlib"/>
 			</Item>
 		</Item>
-		<Item Name="Queue Base.ctl" Type="VI" URL="../Internal Communication/Controls/Queue Base.ctl"/>
-		<Item Name="Queue.ctl" Type="VI" URL="../Internal Communication/Controls/Queue.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="Innes Process Communication.lvlib" Type="Library" URL="../../../../Downloads/ATM (100528-01)/ATM (100528-01)/Omi-One Solution/Inner Process Communication/Innes Process Communication.lvlib"/>
 		</Item>

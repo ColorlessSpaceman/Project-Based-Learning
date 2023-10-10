@@ -9,7 +9,8 @@
 </Property>
 	<Item Name="API" Type="Folder"/>
 	<Item Name="Private" Type="Folder">
-		<Item Name="Enqueueu Decode.vi" Type="VI" URL="../Private/Enqueueu Decode.vi"/>
+		<Item Name="Dequeue Decode.vi" Type="VI" URL="../Private/Dequeue Decode.vi"/>
+		<Item Name="Enqueue Decode.vi" Type="VI" URL="../Private/Enqueue Decode.vi"/>
 		<Item Name="Get Queue Decode.vi" Type="VI" URL="../Private/Get Queue Decode.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder"/>
