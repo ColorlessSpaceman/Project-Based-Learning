@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="23008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -11,6 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="My First PBL" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Decoder" Type="Folder">
 				<Item Name="Decoder.lvlib" Type="Library" URL="../Decoder/Decoder.lvlib"/>
 			</Item>
@@ -31,11 +33,11 @@
 				<Item Name="Queue Base.ctl" Type="VI" URL="../Internal Communication/Controls/Queue Base.ctl"/>
 				<Item Name="Queue.ctl" Type="VI" URL="../Internal Communication/Controls/Queue.ctl"/>
 			</Item>
-			<Item Name="Launcher" Type="Folder">
-				<Item Name="Launcher.vi" Type="VI" URL="../Launcher/Launcher.vi"/>
-			</Item>
 			<Item Name="UI (Provisional)" Type="Folder">
 				<Item Name="UI.lvlib" Type="Library" URL="../UI/UI.lvlib"/>
+			</Item>
+			<Item Name="Launcher" Type="Folder">
+				<Item Name="Launcher.vi" Type="VI" URL="../Launcher/Launcher.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
