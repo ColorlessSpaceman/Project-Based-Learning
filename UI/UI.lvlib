@@ -10,7 +10,6 @@
 	<Item Name="API" Type="Folder"/>
 	<Item Name="Private" Type="Folder">
 		<Item Name="Dequeue UI.vi" Type="VI" URL="../Private/Dequeue UI.vi"/>
-		<Item Name="Enqueue UI.vi" Type="VI" URL="../Private/Enqueue UI.vi"/>
 		<Item Name="Get Queue UI.vi" Type="VI" URL="../Private/Get Queue UI.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder"/>

@@ -16,7 +16,6 @@
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Item Name="Dequeue FPGA.vi" Type="VI" URL="../Private/Dequeue FPGA.vi"/>
-		<Item Name="Enqueue FPGA.vi" Type="VI" URL="../Private/Enqueue FPGA.vi"/>
 		<Item Name="Get Queueu FPGA.vi" Type="VI" URL="../Private/Get Queueu FPGA.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder"/>
