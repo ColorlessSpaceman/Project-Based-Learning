@@ -16,6 +16,7 @@
 		<Item Name="States FPGA.ctl" Type="VI" URL="../Controls/States FPGA.ctl"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Dequeue FPGA.vi" Type="VI" URL="../Private/Dequeue FPGA.vi"/>
 		<Item Name="Get Queueu FPGA.vi" Type="VI" URL="../Private/Get Queueu FPGA.vi"/>
 	</Item>
