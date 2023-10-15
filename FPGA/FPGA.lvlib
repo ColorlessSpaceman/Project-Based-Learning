@@ -8,15 +8,21 @@
 
 </Property>
 	<Item Name="API" Type="Folder">
-		<Item Name="Analog Voltage Off.vi" Type="VI" URL="../Public/Analog Voltage Off.vi"/>
-		<Item Name="Analog Voltage On.vi" Type="VI" URL="../Public/Analog Voltage On.vi"/>
-		<Item Name="Normal Mode FPGA.vi" Type="VI" URL="../API/Normal Mode FPGA.vi"/>
+		<Item Name="Config PWM.vi" Type="VI" URL="../API/Config PWM.vi"/>
+		<Item Name="Config Sine Wave.vi" Type="VI" URL="../API/Config Sine Wave.vi"/>
+		<Item Name="Digital.vi" Type="VI" URL="../API/Digital.vi"/>
+		<Item Name="Disable PWM.vi" Type="VI" URL="../API/Disable PWM.vi"/>
+		<Item Name="Disable Sine Wave.vi" Type="VI" URL="../API/Disable Sine Wave.vi"/>
+		<Item Name="Enable PWM.vi" Type="VI" URL="../API/Enable PWM.vi"/>
+		<Item Name="Enable Sine Wave.vi" Type="VI" URL="../API/Enable Sine Wave.vi"/>
+		<Item Name="Voltage Off.vi" Type="VI" URL="../Public/Voltage Off.vi"/>
+		<Item Name="Voltage On.vi" Type="VI" URL="../Public/Voltage On.vi"/>
 	</Item>
 	<Item Name="Controls" Type="Folder">
 		<Item Name="States FPGA.ctl" Type="VI" URL="../Controls/States FPGA.ctl"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Dequeue FPGA.vi" Type="VI" URL="../Private/Dequeue FPGA.vi"/>
 		<Item Name="Get Queueu FPGA.vi" Type="VI" URL="../Private/Get Queueu FPGA.vi"/>
 	</Item>
