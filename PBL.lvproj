@@ -124,17 +124,16 @@
 				<Item Name="XNET Write (Signal Waveform) .vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write (Signal Waveform) .vi"/>
 				<Item Name="XNET Write (Signal Single-point).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write (Signal Single-point).vi"/>
 				<Item Name="XNET Write.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="XNET Control Scope.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Control Scope.ctl"/>
 				<Item Name="XNET Stop.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Stop.vi"/>
 				<Item Name="XNET Clear.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Clear.vi"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 			</Item>
 			<Item Name="Innes Process Communication.lvlib" Type="Library" URL="../../../../Downloads/ATM (100528-01)/ATM (100528-01)/Omi-One Solution/Inner Process Communication/Innes Process Communication.lvlib"/>
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Simple Timer.vi" Type="VI" URL="../../Side Tests/CAN/Heartbeat/Simple Timer.vi"/>
-			<Item Name="Enqueue Error.vi" Type="VI" URL="../Error Handling/Private/Enqueue Error.vi"/>
 			<Item Name="Enqueue FPGA.vi" Type="VI" URL="../FPGA/Private/Enqueue FPGA.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

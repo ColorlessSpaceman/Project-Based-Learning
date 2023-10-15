@@ -29,11 +29,11 @@
         <fx:PDU-TRIGGERINGS>
           <fx:PDU-TRIGGERING ID="pdutrg1">
             <fx:TIMINGS>
-              <fx:EVENT-CONTROLLED-TIMING>
-                <fx:DEBOUNCE-TIME-RANGE>
+              <fx:CYCLIC-TIMING>
+                <fx:REPEATING-TIME-RANGE>
                   <fx:VALUE>PT0.10000000S</fx:VALUE>
-                </fx:DEBOUNCE-TIME-RANGE>
-              </fx:EVENT-CONTROLLED-TIMING>
+                </fx:REPEATING-TIME-RANGE>
+              </fx:CYCLIC-TIMING>
             </fx:TIMINGS>
             <fx:PDU-REF ID-REF="pdu1"/>
           </fx:PDU-TRIGGERING>
@@ -79,11 +79,11 @@
           </fx:PDU-TRIGGERING>
           <fx:PDU-TRIGGERING ID="pdutrg6">
             <fx:TIMINGS>
-              <fx:EVENT-CONTROLLED-TIMING>
-                <fx:DEBOUNCE-TIME-RANGE>
+              <fx:CYCLIC-TIMING>
+                <fx:REPEATING-TIME-RANGE>
                   <fx:VALUE>PT0.10000000S</fx:VALUE>
-                </fx:DEBOUNCE-TIME-RANGE>
-              </fx:EVENT-CONTROLLED-TIMING>
+                </fx:REPEATING-TIME-RANGE>
+              </fx:CYCLIC-TIMING>
             </fx:TIMINGS>
             <fx:PDU-REF ID-REF="pdu6"/>
           </fx:PDU-TRIGGERING>
@@ -113,7 +113,7 @@
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig3">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>257</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE>256</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm3"/>
             <fx:MANUFACTURER-EXTENSION>
@@ -168,31 +168,31 @@
       <fx:PDU ID="pdu2">
         <ho:SHORT-NAME>ECU_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>5</fx:BYTE-LENGTH>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
       </fx:PDU>
       <fx:PDU ID="pdu3">
         <ho:SHORT-NAME>HeartbeatResponse_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>3</fx:BYTE-LENGTH>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
       </fx:PDU>
       <fx:PDU ID="pdu4">
         <ho:SHORT-NAME>Heartbeat_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>3</fx:BYTE-LENGTH>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
       </fx:PDU>
       <fx:PDU ID="pdu5">
         <ho:SHORT-NAME>Tester_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>5</fx:BYTE-LENGTH>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
       </fx:PDU>
       <fx:PDU ID="pdu6">
         <ho:SHORT-NAME>Throttle_pdu</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>3</fx:BYTE-LENGTH>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
       </fx:PDU>
     </fx:PDUS>
@@ -200,7 +200,7 @@
       <fx:FRAME ID="frm1">
         <ho:SHORT-NAME>Tester</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>5</fx:BYTE-LENGTH>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst1">
             <fx:PDU-REF ID-REF="pdu5"/>
@@ -212,7 +212,7 @@
       <fx:FRAME ID="frm2">
         <ho:SHORT-NAME>ECU</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>5</fx:BYTE-LENGTH>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst2">
             <fx:PDU-REF ID-REF="pdu2"/>
@@ -224,7 +224,7 @@
       <fx:FRAME ID="frm3">
         <ho:SHORT-NAME>Heartbeat</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>3</fx:BYTE-LENGTH>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst3">
             <fx:PDU-REF ID-REF="pdu4"/>
@@ -236,7 +236,7 @@
       <fx:FRAME ID="frm4">
         <ho:SHORT-NAME>HeartbeatResponse</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>3</fx:BYTE-LENGTH>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst4">
             <fx:PDU-REF ID-REF="pdu3"/>
@@ -260,7 +260,7 @@
       <fx:FRAME ID="frm6">
         <ho:SHORT-NAME>Throttle</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>3</fx:BYTE-LENGTH>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
         <fx:PDU-INSTANCES>
           <fx:PDU-INSTANCE ID="pduinst6">
             <fx:PDU-REF ID-REF="pdu6"/>

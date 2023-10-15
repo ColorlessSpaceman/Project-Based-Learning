@@ -10,6 +10,7 @@
 	<Item Name="API" Type="Folder">
 		<Item Name="Analog Voltage Off.vi" Type="VI" URL="../Public/Analog Voltage Off.vi"/>
 		<Item Name="Analog Voltage On.vi" Type="VI" URL="../Public/Analog Voltage On.vi"/>
+		<Item Name="Normal Mode FPGA.vi" Type="VI" URL="../API/Normal Mode FPGA.vi"/>
 	</Item>
 	<Item Name="Controls" Type="Folder">
 		<Item Name="States FPGA.ctl" Type="VI" URL="../Controls/States FPGA.ctl"/>

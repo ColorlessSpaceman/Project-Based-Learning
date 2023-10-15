@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="API" Type="Folder"/>
 	<Item Name="Private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Dequeue UI.vi" Type="VI" URL="../Private/Dequeue UI.vi"/>
 		<Item Name="Get Queue UI.vi" Type="VI" URL="../Private/Get Queue UI.vi"/>
 	</Item>
