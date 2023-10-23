@@ -133,7 +133,6 @@
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Simple Timer.vi" Type="VI" URL="../../Side Tests/CAN/Heartbeat/Simple Timer.vi"/>
 			<Item Name="Enqueue FPGA.vi" Type="VI" URL="../FPGA/Private/Enqueue FPGA.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

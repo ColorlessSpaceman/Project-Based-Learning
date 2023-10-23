@@ -9,11 +9,13 @@
 </Property>
 	<Item Name="API" Type="Folder">
 		<Item Name="Normal Mode Encoder.vi" Type="VI" URL="../API/Normal Mode Encoder.vi"/>
+		<Item Name="Send FPGA Responses.vi" Type="VI" URL="../API/Send FPGA Responses.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Dequeue Encoder.vi" Type="VI" URL="../Private/Dequeue Encoder.vi"/>
 		<Item Name="Get Queue Encode.vi" Type="VI" URL="../Private/Get Queue Encode.vi"/>
+		<Item Name="Send Error Messages.vi" Type="VI" URL="../Private/Send Error Messages.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder"/>
 	<Item Name="Main VI.vi" Type="VI" URL="../Main VI.vi"/>
