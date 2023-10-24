@@ -24,8 +24,10 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Dequeue FPGA.vi" Type="VI" URL="../Private/Dequeue FPGA.vi"/>
+		<Item Name="Digital Values.vi" Type="VI" URL="../Private/Digital Values.vi"/>
 		<Item Name="Get Queueu FPGA.vi" Type="VI" URL="../Private/Get Queueu FPGA.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder"/>
+	<Item Name="Load Bitfile.vi" Type="VI" URL="../Load Bitfile.vi"/>
 	<Item Name="Main VI.vi" Type="VI" URL="../Main VI.vi"/>
 </Library>

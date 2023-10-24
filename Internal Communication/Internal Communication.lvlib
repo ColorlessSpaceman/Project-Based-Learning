@@ -17,7 +17,7 @@
 		<Item Name="Dequeue.vi" Type="VI" URL="../Public/Dequeue.vi"/>
 		<Item Name="Enqueue.vi" Type="VI" URL="../Public/Enqueue.vi"/>
 		<Item Name="Normal Mode.vi" Type="VI" URL="../Public/Normal Mode.vi"/>
-		<Item Name="Simple Timer.vi" Type="VI" URL="../../../Side Tests/CAN/Heartbeat/Simple Timer.vi"/>
+		<Item Name="Simple Timer.vi" Type="VI" URL="../Public/Simple Timer.vi"/>
 	</Item>
 	<Item Name="Main VI.vi" Type="VI" URL="../Main VI.vi"/>
 </Library>

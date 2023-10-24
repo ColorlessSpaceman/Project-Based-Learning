@@ -10,7 +10,7 @@
 	<Item Name="API" Type="Folder"/>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="CAN payload to string.vi" Type="VI" URL="../../../Side Tests/Decoder/CAN payload to string.vi"/>
+		<Item Name="CAN payload to string.vi" Type="VI" URL="../Private/CAN payload to string.vi"/>
 		<Item Name="Dequeue Decode.vi" Type="VI" URL="../Private/Dequeue Decode.vi"/>
 		<Item Name="Get Queue Decode.vi" Type="VI" URL="../Private/Get Queue Decode.vi"/>
 		<Item Name="Hex to Dec.vi" Type="VI" URL="../Private/Hex to Dec.vi"/>
